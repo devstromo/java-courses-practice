@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0982d1fa-5f3e-4134-ba5c-502a32bf0606" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/Vertex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph-algorithms/src/test/java/com/devstromo/VertexTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0982d1fa-5f3e-4134-ba5c-502a32bf0606" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676069058521</updated>
-      <workItem from="1676069060737" duration="1527000" />
+      <workItem from="1676069060737" duration="1862000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1676069305411</created>
@@ -96,15 +91,25 @@
       <option name="project" value="LOCAL" />
       <updated>1676069305412</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adjacency Matrix | List">
+      <created>1676070970982</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676070970982</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="Adjacency Matrix | List" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adjacency Matrix | List" />
   </component>
 </project>
