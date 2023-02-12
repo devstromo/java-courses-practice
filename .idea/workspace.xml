@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0982d1fa-5f3e-4134-ba5c-502a32bf0606" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/bfs/BreadthFirstSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/bfs/Vertex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph-algorithms/src/test/java/com/devstromo/bfs/BreadthFirstSearchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/bfs/web_crawler/BFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph-algorithms/src/test/java/com/devstromo/bfs/web_crawler/BFSTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +60,22 @@
       <recent name="com.devstromo.bfs" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BreadthFirstSearchTest">
+  <component name="RunManager" selected="JUnit.BFSTest">
+    <configuration name="BFSTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="graph-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.devstromo.bfs.web_crawler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.devstromo.bfs.web_crawler" />
+      <option name="MAIN_CLASS_NAME" value="com.devstromo.bfs.web_crawler.BFSTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BreadthFirstSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="graph-algorithms" />
       <extension name="coverage">
@@ -94,6 +108,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BFSTest" />
         <item itemvalue="JUnit.BreadthFirstSearchTest" />
         <item itemvalue="JUnit.VertexTest" />
       </list>
@@ -108,7 +123,8 @@
       <option name="presentableId" value="Default" />
       <updated>1676069058521</updated>
       <workItem from="1676069060737" duration="2113000" />
-      <workItem from="1676135661249" duration="1337000" />
+      <workItem from="1676135661249" duration="1604000" />
+      <workItem from="1676240224882" duration="1827000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1676069305411</created>
@@ -131,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676071238073</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Breadth First Search">
+      <created>1676137185237</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676137185237</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +167,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="Adjacency Matrix | List" />
     <MESSAGE value="Add README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add README.md" />
+    <MESSAGE value="Breadth First Search" />
+    <option name="LAST_COMMIT_MESSAGE" value="Breadth First Search" />
   </component>
 </project>
