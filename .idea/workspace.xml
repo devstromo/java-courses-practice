@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0982d1fa-5f3e-4134-ba5c-502a32bf0606" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/dfs/DFS.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/dfs/Vertex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph-algorithms/src/test/java/com/devstromo/dfs/DFSTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -52,6 +54,7 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.devstromo.dfs" />
       <recent name="com.devstromo.bfs.web_crawler" />
       <recent name="com.devstromo.bfs" />
       <recent name="com.devstromo" />
@@ -60,7 +63,7 @@
       <recent name="com.devstromo.bfs" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BFSTest">
+  <component name="RunManager" selected="JUnit.DFSTest.testStackDFS">
     <configuration name="BFSTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="graph-algorithms" />
       <extension name="coverage">
@@ -91,6 +94,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DFSTest.testStackDFS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="graph-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.devstromo.dfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.devstromo.dfs" />
+      <option name="MAIN_CLASS_NAME" value="com.devstromo.dfs.DFSTest" />
+      <option name="METHOD_NAME" value="testStackDFS" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VertexTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="graph-algorithms" />
       <extension name="coverage">
@@ -108,6 +127,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DFSTest.testStackDFS" />
         <item itemvalue="JUnit.BFSTest" />
         <item itemvalue="JUnit.BreadthFirstSearchTest" />
         <item itemvalue="JUnit.VertexTest" />
@@ -125,7 +145,7 @@
       <workItem from="1676069060737" duration="2113000" />
       <workItem from="1676135661249" duration="1604000" />
       <workItem from="1676240224882" duration="1885000" />
-      <workItem from="1676332158891" duration="628000" />
+      <workItem from="1676332158891" duration="1397000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1676069305411</created>
@@ -162,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676243352844</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Breadth First Search | Web Crawler">
+      <created>1676332894706</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676332894706</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
