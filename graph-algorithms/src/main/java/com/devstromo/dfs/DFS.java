@@ -16,6 +16,17 @@ public class DFS {
         }
     }
 
+    public static void recursion(List<Vertex> vertexList) {
+
+        // it may happen that we have independent clusters
+        for (var vertex : vertexList) {
+            if (!vertex.isVisited()) {
+                vertex.setVisited(true);
+                dfs(vertex);
+            }
+        }
+    }
+
     private static void dfsHelper(Vertex rootVertex) {
         var stack = new Stack<Vertex>();
 
@@ -30,6 +41,16 @@ public class DFS {
                     vertex.setVisited(true);
                     stack.add(vertex);
                 }
+            }
+        }
+    }
+
+    private static void dfs(Vertex rootVertex) {
+        System.out.println(rootVertex);
+        for (var vertex : rootVertex.getAdjacencyList()) {
+            if (!vertex.isVisited()) {
+                vertex.setVisited(true);
+                dfs(vertex);
             }
         }
     }
