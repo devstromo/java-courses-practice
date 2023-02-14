@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 class BreadthFirstSearchTest {
 
     @Test
-    public void testBFS() {
+    void testBFS() {
         var a = new Vertex("A");
         var b = new Vertex("B");
         var c = new Vertex("C");
