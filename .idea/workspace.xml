@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0982d1fa-5f3e-4134-ba5c-502a32bf0606" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/dfs/maze/Maze.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph-algorithms/src/test/java/com/devstromo/dfs/maze/MazeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/topologial_ordering/DESCRIPTION.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/topologial_ordering/TopologicalOrdering.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/topologial_ordering/Vertex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph-algorithms/src/test/java/com/devstromo/topologial_ordering/TopologicalOrderingTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,32 +56,17 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.devstromo.topologial_ordering" />
       <recent name="com.devstromo.dfs.maze" />
       <recent name="com.devstromo.dfs" />
       <recent name="com.devstromo.bfs.web_crawler" />
       <recent name="com.devstromo.bfs" />
-      <recent name="com.devstromo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.devstromo.bfs" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MazeTest">
-    <configuration name="BFSTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="graph-algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.devstromo.bfs.web_crawler.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.devstromo.bfs.web_crawler" />
-      <option name="MAIN_CLASS_NAME" value="com.devstromo.bfs.web_crawler.BFSTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TopologicalOrderingTest">
     <configuration name="DFSTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="graph-algorithms" />
       <extension name="coverage">
@@ -141,13 +129,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TopologicalOrderingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="graph-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.devstromo.topologial_ordering.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.devstromo.topologial_ordering" />
+      <option name="MAIN_CLASS_NAME" value="com.devstromo.topologial_ordering.TopologicalOrderingTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TopologicalOrderingTest" />
         <item itemvalue="JUnit.MazeTest" />
         <item itemvalue="JUnit.MazeTest.testMazeEscapeSecond" />
         <item itemvalue="JUnit.DFSTest" />
         <item itemvalue="JUnit.DFSTest.testStackDFS" />
-        <item itemvalue="JUnit.BFSTest" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +166,8 @@
       <workItem from="1676135661249" duration="1604000" />
       <workItem from="1676240224882" duration="1885000" />
       <workItem from="1676332158891" duration="2432000" />
-      <workItem from="1676417362702" duration="1741000" />
+      <workItem from="1676417362702" duration="1776000" />
+      <workItem from="1676499660533" duration="2106000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1676069305411</created>
@@ -221,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676333986344</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Depth First Search | Maze Escape">
+      <created>1676419129868</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1676419129868</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +249,7 @@
     <MESSAGE value="Breadth First Search | Web Crawler" />
     <MESSAGE value="Depth First Search | Stack" />
     <MESSAGE value="Depth First Search | Recursion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Depth First Search | Recursion" />
+    <MESSAGE value="Depth First Search | Maze Escape" />
+    <option name="LAST_COMMIT_MESSAGE" value="Depth First Search | Maze Escape" />
   </component>
 </project>
