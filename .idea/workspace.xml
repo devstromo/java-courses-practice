@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0982d1fa-5f3e-4134-ba5c-502a32bf0606" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/topologial_ordering/DESCRIPTION.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/topologial_ordering/TopologicalOrdering.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/topologial_ordering/Vertex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph-algorithms/src/test/java/com/devstromo/topologial_ordering/TopologicalOrderingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph-algorithms/src/test/java/com/devstromo/topologial_ordering/shortest_path/ShortestPathTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/topologial_ordering/shortest_path/ShortesPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/topologial_ordering/shortest_path/ShortestPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/topologial_ordering/shortest_path/Vertex.java" beforeDir="false" afterPath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/topologial_ordering/shortest_path/Vertex.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,17 +54,17 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.devstromo.topologial_ordering.shortest_path" />
       <recent name="com.devstromo.topologial_ordering" />
       <recent name="com.devstromo.dfs.maze" />
       <recent name="com.devstromo.dfs" />
       <recent name="com.devstromo.bfs.web_crawler" />
-      <recent name="com.devstromo.bfs" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.devstromo.bfs" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TopologicalOrderingTest">
+  <component name="RunManager" selected="JUnit.ShortestPathTest">
     <configuration name="DFSTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="graph-algorithms" />
       <extension name="coverage">
@@ -78,22 +76,6 @@
       <option name="PACKAGE_NAME" value="com.devstromo.dfs" />
       <option name="MAIN_CLASS_NAME" value="com.devstromo.dfs.DFSTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DFSTest.testStackDFS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="graph-algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.devstromo.dfs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.devstromo.dfs" />
-      <option name="MAIN_CLASS_NAME" value="com.devstromo.dfs.DFSTest" />
-      <option name="METHOD_NAME" value="testStackDFS" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -129,6 +111,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShortestPathTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="graph-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.devstromo.topologial_ordering.shortest_path.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.devstromo.topologial_ordering.shortest_path" />
+      <option name="MAIN_CLASS_NAME" value="com.devstromo.topologial_ordering.shortest_path.ShortestPathTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TopologicalOrderingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="graph-algorithms" />
       <extension name="coverage">
@@ -146,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ShortestPathTest" />
         <item itemvalue="JUnit.TopologicalOrderingTest" />
         <item itemvalue="JUnit.MazeTest" />
         <item itemvalue="JUnit.MazeTest.testMazeEscapeSecond" />
         <item itemvalue="JUnit.DFSTest" />
-        <item itemvalue="JUnit.DFSTest.testStackDFS" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +164,8 @@
       <workItem from="1676240224882" duration="1885000" />
       <workItem from="1676332158891" duration="2432000" />
       <workItem from="1676417362702" duration="1776000" />
-      <workItem from="1676499660533" duration="2106000" />
+      <workItem from="1676499660533" duration="2463000" />
+      <workItem from="1676587037912" duration="2216000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1676069305411</created>
@@ -232,7 +230,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676419129868</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Depth First Search | Topological Ordering">
+      <created>1676502081954</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1676502081955</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Topological Ordering | Shortest Path">
+      <created>1676588317971</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1676588317971</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,6 +262,8 @@
     <MESSAGE value="Depth First Search | Stack" />
     <MESSAGE value="Depth First Search | Recursion" />
     <MESSAGE value="Depth First Search | Maze Escape" />
-    <option name="LAST_COMMIT_MESSAGE" value="Depth First Search | Maze Escape" />
+    <MESSAGE value="Depth First Search | Topological Ordering" />
+    <MESSAGE value="Topological Ordering | Shortest Path" />
+    <option name="LAST_COMMIT_MESSAGE" value="Topological Ordering | Shortest Path" />
   </component>
 </project>

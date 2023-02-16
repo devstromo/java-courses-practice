@@ -57,7 +57,7 @@ public class Vertex {
         return adjacencyList;
     }
 
-    public void setNeighbor(Edge edge) {
+    public void addNeighbor(Edge edge) {
         this.adjacencyList.add(edge);
     }
 
