@@ -42,5 +42,4 @@ class ShortestPathTest {
             System.out.println("Distance from S to " + vertex.getName() + ": " + vertex.getMinDistance() + " - " + vertex.getPredecessor());
         }
     }
-
 }
