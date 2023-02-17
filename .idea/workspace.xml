@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0982d1fa-5f3e-4134-ba5c-502a32bf0606" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/graph-algorithms/src/test/java/com/devstromo/topologial_ordering/shortest_path/ShortestPathTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/cycle_detection/CycleDetection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/cycle_detection/Vertex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/topologial_ordering/shortest_path/ShortesPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/topologial_ordering/shortest_path/ShortestPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/topologial_ordering/shortest_path/Vertex.java" beforeDir="false" afterPath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/topologial_ordering/shortest_path/Vertex.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -165,7 +164,8 @@
       <workItem from="1676332158891" duration="2432000" />
       <workItem from="1676417362702" duration="1776000" />
       <workItem from="1676499660533" duration="2463000" />
-      <workItem from="1676587037912" duration="2216000" />
+      <workItem from="1676587037912" duration="2854000" />
+      <workItem from="1676675990894" duration="880000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1676069305411</created>
@@ -244,7 +244,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676588317971</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Topological Ordering | Shortest Path">
+      <created>1676589315211</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1676589315211</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Topological Ordering | Shortest Path">
+      <created>1676589517698</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1676589517698</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
