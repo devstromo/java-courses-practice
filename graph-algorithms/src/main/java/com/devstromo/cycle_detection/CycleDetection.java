@@ -25,6 +25,6 @@ public class CycleDetection {
             }
         }
         vertex.setBeingVisited(false);
-        vertex.setVisited(false);
+        vertex.setVisited(true);
     }
 }
