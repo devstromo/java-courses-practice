@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.PriorityQueue;
 import java.util.Set;
 
-public class LazyPrimAlgorithm {
+public class LazyPrimsAlgorithm {
 
     // most of the operations have O(1) running time
     private final Set<Vertex> unvisited;
@@ -16,7 +16,7 @@ public class LazyPrimAlgorithm {
     private final PriorityQueue<Edge> heap;
     private double fullCost;
 
-    public LazyPrimAlgorithm(List<Vertex> unvisited) {
+    public LazyPrimsAlgorithm(List<Vertex> unvisited) {
         this.unvisited = new HashSet<>(unvisited);
         this.mst = new ArrayList<>();
         this.heap = new PriorityQueue<>();
