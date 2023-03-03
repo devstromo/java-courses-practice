@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0982d1fa-5f3e-4134-ba5c-502a32bf0606" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/graph-algorithms/src/test/java/com/devstromo/prim_algorithm/LazyPrimsAlgorithmTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/prim_algorithm/LazyPrimAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/prim_algorithm/LazyPrimsAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/prim_algorithm/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/prim_algorithm/lazy/Edge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/prim_algorithm/LazyPrimsAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/prim_algorithm/lazy/LazyPrimsAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/prim_algorithm/Vertex.java" beforeDir="false" afterPath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/prim_algorithm/lazy/Vertex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph-algorithms/src/test/java/com/devstromo/prim_algorithm/LazyPrimsAlgorithmTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/graph-algorithms/src/test/java/com/devstromo/prim_algorithm/LazyPrimsAlgorithmTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,19 +38,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "jdk.selected.JAVA_MODULE": "19",
-    "last_opened_file_path": "D:/WORK/PROYECTOS/JAVA/java-courses-practice/graph-algorithms/src/main/java/com/devstromo/prim_algorithm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/WORK/PROYECTOS/JAVA/java-courses-practice/graph-algorithms/src/main/java/com/devstromo/prim_algorithm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\WORK\PROYECTOS\JAVA\java-courses-practice\graph-algorithms\src\main\java\com\devstromo\prim_algorithm" />
@@ -136,7 +139,7 @@
       <module name="graph-algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.devstromo.prim_algorithm.*" />
+          <option name="PATTERN" value="com.devstromo.prim_algorithm.lazy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,7 +182,8 @@
       <workItem from="1677008601996" duration="5226000" />
       <workItem from="1677109772223" duration="1334000" />
       <workItem from="1677624442650" duration="2336000" />
-      <workItem from="1677714125596" duration="2270000" />
+      <workItem from="1677714125596" duration="2323000" />
+      <workItem from="1677800215026" duration="1387000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1676069305411</created>
@@ -342,7 +346,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677716246723</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Lazy Prim's Algorithm">
+      <created>1677716424931</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1677716424931</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

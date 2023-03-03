@@ -1,4 +1,4 @@
-package com.devstromo.prim_algorithm;
+package com.devstromo.prim_algorithm.lazy;
 
 public record Edge(Vertex start, Vertex target, double weight) implements Comparable<Edge> {
     @Override

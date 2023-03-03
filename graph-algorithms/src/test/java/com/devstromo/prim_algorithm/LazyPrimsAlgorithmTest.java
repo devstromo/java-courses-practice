@@ -5,6 +5,10 @@ import java.util.List;
 
 import org.junit.jupiter.api.Test;
 
+import com.devstromo.prim_algorithm.lazy.Edge;
+import com.devstromo.prim_algorithm.lazy.LazyPrimsAlgorithm;
+import com.devstromo.prim_algorithm.lazy.Vertex;
+
 class LazyPrimsAlgorithmTest {
 
     @Test

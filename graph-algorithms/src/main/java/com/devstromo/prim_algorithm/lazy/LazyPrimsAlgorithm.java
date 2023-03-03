@@ -1,4 +1,4 @@
-package com.devstromo.prim_algorithm;
+package com.devstromo.prim_algorithm.lazy;
 
 import java.util.ArrayList;
 import java.util.HashSet;
