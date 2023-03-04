@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0982d1fa-5f3e-4134-ba5c-502a32bf0606" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/kosaraju_algorithm/Edge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/kosaraju_algorithm/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/kosaraju_algorithm/KosajaruAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/kosaraju_algorithm/Vertex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/kosaraju_algorithm/DepthFirstOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/kosaraju_algorithm/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/kosaraju_algorithm/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/kosaraju_algorithm/KosajaruAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/kosaraju_algorithm/KosajaruAlgorithm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +184,7 @@
       <workItem from="1677624442650" duration="2336000" />
       <workItem from="1677714125596" duration="2323000" />
       <workItem from="1677800215026" duration="4261000" />
-      <workItem from="1677887869275" duration="1617000" />
+      <workItem from="1677887869275" duration="2880000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1676069305411</created>
@@ -369,7 +368,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677806031260</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Kosajaru Algorithm | Strongly Connected Component">
+      <created>1677889728421</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1677889728421</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -398,6 +404,7 @@
     <MESSAGE value="Kruskal's Algorithm" />
     <MESSAGE value="Lazy Prim's Algorithm" />
     <MESSAGE value="Eager Prims Jarnik Algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Eager Prims Jarnik Algorithm" />
+    <MESSAGE value="Kosajaru Algorithm | Strongly Connected Component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kosajaru Algorithm | Strongly Connected Component" />
   </component>
 </project>
