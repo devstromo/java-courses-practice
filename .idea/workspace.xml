@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0982d1fa-5f3e-4134-ba5c-502a32bf0606" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/tarjan/TarjanAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/tarjan/Vertex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph-algorithms/src/test/java/com/devstromo/tarjan/TarjanAlgorithmTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/maximum_flow/Edge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/maximum_flow/FlowNetwork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/maximum_flow/FordFulkerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/maximum_flow/Vertex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -184,7 +185,9 @@
       <workItem from="1677714125596" duration="2323000" />
       <workItem from="1677800215026" duration="4261000" />
       <workItem from="1677887869275" duration="3848000" />
-      <workItem from="1678231619065" duration="3046000" />
+      <workItem from="1678231619065" duration="3093000" />
+      <workItem from="1678489657144" duration="1238000" />
+      <workItem from="1680044585885" duration="1000000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1676069305411</created>
@@ -389,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677891777074</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Tarjan Algorithm | Strongly Connected Component">
+      <created>1678236048434</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1678236048434</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -419,6 +429,7 @@
     <MESSAGE value="Lazy Prim's Algorithm" />
     <MESSAGE value="Eager Prims Jarnik Algorithm" />
     <MESSAGE value="Kosajaru Algorithm | Strongly Connected Component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kosajaru Algorithm | Strongly Connected Component" />
+    <MESSAGE value="Tarjan Algorithm | Strongly Connected Component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tarjan Algorithm | Strongly Connected Component" />
   </component>
 </project>
