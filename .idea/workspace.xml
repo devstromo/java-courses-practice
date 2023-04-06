@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0982d1fa-5f3e-4134-ba5c-502a32bf0606" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/graph-algorithms/src/test/java/com/devstromo/maximum_flow/FordFulkersonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/travelling_salesman_problem/TravellingSalesmanProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph-algorithms/src/test/java/com/devstromo/travelling_salesman_problem/TravellingSalesmanProblemTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/maximum_flow/FordFulkerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/maximum_flow/FordFulkerson.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,18 +61,18 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.devstromo.travelling_salesman_problem" />
+      <recent name="com.devstromo.maximum_flow" />
       <recent name="com.devstromo.tarjan" />
       <recent name="com.devstromo.kosaraju_algorithm" />
       <recent name="com.devstromo.prim_algorithm.eager" />
-      <recent name="com.devstromo.prim_algorithm" />
-      <recent name="com.devstromo.kruskal" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.devstromo.kosaraju_algorithm" />
       <recent name="com.devstromo.bfs" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FordFulkersonTest.testFordFulkerson">
+  <component name="RunManager" selected="JUnit.TravellingSalesmanProblemTest.testTravellingSalesmanProblem">
     <configuration name="EagerPrimsAlgorithmTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="graph-algorithms" />
       <extension name="coverage">
@@ -119,21 +119,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LazyPrimsAlgorithmTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="graph-algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.devstromo.prim_algorithm.lazy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.devstromo.prim_algorithm" />
-      <option name="MAIN_CLASS_NAME" value="com.devstromo.prim_algorithm.LazyPrimsAlgorithmTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TarjanAlgorithmTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="graph-algorithms" />
       <extension name="coverage">
@@ -149,13 +134,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TravellingSalesmanProblemTest.testTravellingSalesmanProblem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="graph-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.devstromo.travelling_salesman_problem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.devstromo.travelling_salesman_problem" />
+      <option name="MAIN_CLASS_NAME" value="com.devstromo.travelling_salesman_problem.TravellingSalesmanProblemTest" />
+      <option name="METHOD_NAME" value="testTravellingSalesmanProblem" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TravellingSalesmanProblemTest.testTravellingSalesmanProblem" />
         <item itemvalue="JUnit.FordFulkersonTest.testFordFulkerson" />
         <item itemvalue="JUnit.TarjanAlgorithmTest" />
         <item itemvalue="JUnit.KosajaruAlgorithmTest" />
         <item itemvalue="JUnit.EagerPrimsAlgorithmTest" />
-        <item itemvalue="JUnit.LazyPrimsAlgorithmTest" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +187,8 @@
       <workItem from="1677887869275" duration="3848000" />
       <workItem from="1678231619065" duration="3093000" />
       <workItem from="1678489657144" duration="1238000" />
-      <workItem from="1680044585885" duration="2537000" />
+      <workItem from="1680044585885" duration="3414000" />
+      <workItem from="1680817555600" duration="2522000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1676069305411</created>
@@ -412,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680045975964</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Ford Fulkerson Algorithm | Maximum Flow">
+      <created>1680047376294</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1680047376294</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
