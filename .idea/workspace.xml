@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0982d1fa-5f3e-4134-ba5c-502a32bf0606" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/travelling_salesman_problem/TravellingSalesmanProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph-algorithms/src/test/java/com/devstromo/travelling_salesman_problem/TravellingSalesmanProblemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/euler_cycle/ChinesePostmanProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/euler_cycle/OpenCPP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph-algorithms/src/test/java/com/devstromo/euler_cycle/OpenCPPUnitTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,17 +73,17 @@
       <recent name="com.devstromo.bfs" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TravellingSalesmanProblemTest.testTravellingSalesmanProblem">
-    <configuration name="EagerPrimsAlgorithmTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.OpenCPPUnitTest">
+    <configuration name="ChinesePostmanProblemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="graph-algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.devstromo.prim_algorithm.eager.*" />
+          <option name="PATTERN" value="com.devstromo.euler_cycle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.devstromo.prim_algorithm.eager" />
-      <option name="MAIN_CLASS_NAME" value="com.devstromo.prim_algorithm.eager.EagerPrimsAlgorithmTest" />
+      <option name="PACKAGE_NAME" value="com.devstromo.euler_cycle" />
+      <option name="MAIN_CLASS_NAME" value="com.devstromo.euler_cycle.ChinesePostmanProblemTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,32 +105,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KosajaruAlgorithmTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OpenCPPUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="graph-algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.devstromo.kosaraju_algorithm.*" />
+          <option name="PATTERN" value="com.devstromo.euler_cycle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.devstromo.kosaraju_algorithm" />
-      <option name="MAIN_CLASS_NAME" value="com.devstromo.kosaraju_algorithm.KosajaruAlgorithmTest" />
+      <option name="PACKAGE_NAME" value="com.devstromo.euler_cycle" />
+      <option name="MAIN_CLASS_NAME" value="com.devstromo.euler_cycle.OpenCPPUnitTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TarjanAlgorithmTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OpenCPPUnitTest.testOpenCPPTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="graph-algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.devstromo.tarjan.*" />
+          <option name="PATTERN" value="com.devstromo.euler_cycle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.devstromo.tarjan" />
-      <option name="MAIN_CLASS_NAME" value="com.devstromo.tarjan.TarjanAlgorithmTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.devstromo.euler_cycle" />
+      <option name="MAIN_CLASS_NAME" value="com.devstromo.euler_cycle.OpenCPPUnitTest" />
+      <option name="METHOD_NAME" value="testOpenCPPTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -152,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OpenCPPUnitTest" />
+        <item itemvalue="JUnit.ChinesePostmanProblemTest" />
+        <item itemvalue="JUnit.OpenCPPUnitTest.testOpenCPPTest" />
         <item itemvalue="JUnit.TravellingSalesmanProblemTest.testTravellingSalesmanProblem" />
         <item itemvalue="JUnit.FordFulkersonTest.testFordFulkerson" />
-        <item itemvalue="JUnit.TarjanAlgorithmTest" />
-        <item itemvalue="JUnit.KosajaruAlgorithmTest" />
-        <item itemvalue="JUnit.EagerPrimsAlgorithmTest" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +190,8 @@
       <workItem from="1678231619065" duration="3093000" />
       <workItem from="1678489657144" duration="1238000" />
       <workItem from="1680044585885" duration="3414000" />
-      <workItem from="1680817555600" duration="2522000" />
+      <workItem from="1680817555600" duration="3220000" />
+      <workItem from="1681169088702" duration="1969000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1676069305411</created>
@@ -421,7 +424,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680047376294</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Travelling Salesman Problem | Hamiltonian Cycles">
+      <created>1680820706641</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1680820706641</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -453,6 +463,7 @@
     <MESSAGE value="Kosajaru Algorithm | Strongly Connected Component" />
     <MESSAGE value="Tarjan Algorithm | Strongly Connected Component" />
     <MESSAGE value="Ford Fulkerson Algorithm | Maximum Flow" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ford Fulkerson Algorithm | Maximum Flow" />
+    <MESSAGE value="Travelling Salesman Problem | Hamiltonian Cycles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Travelling Salesman Problem | Hamiltonian Cycles" />
   </component>
 </project>
