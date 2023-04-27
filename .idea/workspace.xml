@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0982d1fa-5f3e-4134-ba5c-502a32bf0606" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/thread_manipulation/ThreadManipulation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/thread_manipulation/runnable/ThreadManipulation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/thread_manipulation/ThreadManipulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/thread_manipulation/sequential/ThreadManipulation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,13 +73,26 @@
       <recent name="com.devstromo.bfs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreadManipulation">
+  <component name="RunManager" selected="Application.com.devstromo.thread_manipulation.runnable.ThreadManipulation">
     <configuration name="ThreadManipulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.devstromo.thread_manipulation.ThreadManipulation" />
+      <option name="MAIN_CLASS_NAME" value="com.devstromo.thread_manipulation.sequential.ThreadManipulation" />
       <module name="multithreading-and-parallel-computing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.devstromo.thread_manipulation.*" />
+          <option name="PATTERN" value="com.devstromo.thread_manipulation.sequential.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.devstromo.thread_manipulation.runnable.ThreadManipulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.devstromo.thread_manipulation.runnable.ThreadManipulation" />
+      <module name="multithreading-and-parallel-computing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.devstromo.thread_manipulation.runnable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,29 +146,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TravellingSalesmanProblemTest.testTravellingSalesmanProblem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="graph-algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.devstromo.travelling_salesman_problem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.devstromo.travelling_salesman_problem" />
-      <option name="MAIN_CLASS_NAME" value="com.devstromo.travelling_salesman_problem.TravellingSalesmanProblemTest" />
-      <option name="METHOD_NAME" value="testTravellingSalesmanProblem" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.devstromo.thread_manipulation.runnable.ThreadManipulation" />
         <item itemvalue="Application.ThreadManipulation" />
         <item itemvalue="JUnit.OpenCPPUnitTest" />
         <item itemvalue="JUnit.ChinesePostmanProblemTest" />
         <item itemvalue="JUnit.OpenCPPUnitTest.testOpenCPPTest" />
-        <item itemvalue="JUnit.TravellingSalesmanProblemTest.testTravellingSalesmanProblem" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +186,7 @@
       <workItem from="1680044585885" duration="3414000" />
       <workItem from="1680817555600" duration="3220000" />
       <workItem from="1681169088702" duration="2531000" />
-      <workItem from="1682555604135" duration="688000" />
+      <workItem from="1682555604135" duration="1516000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1676069305411</created>
@@ -439,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681171280600</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Sequential Processing">
+      <created>1682556456479</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1682556456479</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -473,6 +474,7 @@
     <MESSAGE value="Ford Fulkerson Algorithm | Maximum Flow" />
     <MESSAGE value="Travelling Salesman Problem | Hamiltonian Cycles" />
     <MESSAGE value="Chinese Postman Problem | Eulerian Cycles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chinese Postman Problem | Eulerian Cycles" />
+    <MESSAGE value="Sequential Processing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sequential Processing" />
   </component>
 </project>

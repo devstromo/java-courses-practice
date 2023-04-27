@@ -1,4 +1,4 @@
-package com.devstromo.thread_manipulation;
+package com.devstromo.thread_manipulation.sequential;
 
 public class ThreadManipulation {
 
