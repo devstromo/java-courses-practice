@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0982d1fa-5f3e-4134-ba5c-502a32bf0606" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/thread_manipulation/runnable/ThreadManipulation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/thread_manipulation/ThreadManipulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/thread_manipulation/sequential/ThreadManipulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/thread_manipulation/runnable/ThreadManipulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/thread_manipulation/runnable/ThreadManipulation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +184,8 @@
       <workItem from="1680044585885" duration="3414000" />
       <workItem from="1680817555600" duration="3220000" />
       <workItem from="1681169088702" duration="2531000" />
-      <workItem from="1682555604135" duration="1516000" />
+      <workItem from="1682555604135" duration="1819000" />
+      <workItem from="1682636481518" duration="1564000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1676069305411</created>
@@ -440,7 +439,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682556456479</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Multi-thread Processing">
+      <created>1682557387689</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1682557387689</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -450,7 +456,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="initial commit" />
     <MESSAGE value="Adjacency Matrix | List" />
     <MESSAGE value="Add README.md" />
     <MESSAGE value="Breadth First Search" />
@@ -475,6 +480,7 @@
     <MESSAGE value="Travelling Salesman Problem | Hamiltonian Cycles" />
     <MESSAGE value="Chinese Postman Problem | Eulerian Cycles" />
     <MESSAGE value="Sequential Processing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sequential Processing" />
+    <MESSAGE value="Multi-thread Processing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Multi-thread Processing" />
   </component>
 </project>
