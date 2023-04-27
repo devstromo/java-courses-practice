@@ -7,6 +7,7 @@
   <version>1.0-SNAPSHOT</version>
   <modules>
     <module>graph-algorithms</module>
+      <module>multithreading-and-parallel-computing</module>
   </modules>
   <name>java-courses-practice</name>
 

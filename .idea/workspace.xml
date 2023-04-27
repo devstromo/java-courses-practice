@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0982d1fa-5f3e-4134-ba5c-502a32bf0606" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/euler_cycle/ChinesePostmanProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph-algorithms/src/main/java/com/devstromo/euler_cycle/OpenCPP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph-algorithms/src/test/java/com/devstromo/euler_cycle/OpenCPPUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/thread_manipulation/ThreadManipulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -62,18 +65,31 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.devstromo.euler_cycle" />
       <recent name="com.devstromo.travelling_salesman_problem" />
       <recent name="com.devstromo.maximum_flow" />
       <recent name="com.devstromo.tarjan" />
       <recent name="com.devstromo.kosaraju_algorithm" />
-      <recent name="com.devstromo.prim_algorithm.eager" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.devstromo.kosaraju_algorithm" />
       <recent name="com.devstromo.bfs" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OpenCPPUnitTest">
+  <component name="RunManager" selected="Application.ThreadManipulation">
+    <configuration name="ThreadManipulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.devstromo.thread_manipulation.ThreadManipulation" />
+      <module name="multithreading-and-parallel-computing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.devstromo.thread_manipulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ChinesePostmanProblemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="graph-algorithms" />
       <extension name="coverage">
@@ -85,22 +101,6 @@
       <option name="PACKAGE_NAME" value="com.devstromo.euler_cycle" />
       <option name="MAIN_CLASS_NAME" value="com.devstromo.euler_cycle.ChinesePostmanProblemTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FordFulkersonTest.testFordFulkerson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="graph-algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.devstromo.maximum_flow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.devstromo.maximum_flow" />
-      <option name="MAIN_CLASS_NAME" value="com.devstromo.maximum_flow.FordFulkersonTest" />
-      <option name="METHOD_NAME" value="testFordFulkerson" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -154,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadManipulation" />
         <item itemvalue="JUnit.OpenCPPUnitTest" />
         <item itemvalue="JUnit.ChinesePostmanProblemTest" />
         <item itemvalue="JUnit.OpenCPPUnitTest.testOpenCPPTest" />
         <item itemvalue="JUnit.TravellingSalesmanProblemTest.testTravellingSalesmanProblem" />
-        <item itemvalue="JUnit.FordFulkersonTest.testFordFulkerson" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +191,8 @@
       <workItem from="1678489657144" duration="1238000" />
       <workItem from="1680044585885" duration="3414000" />
       <workItem from="1680817555600" duration="3220000" />
-      <workItem from="1681169088702" duration="1969000" />
+      <workItem from="1681169088702" duration="2531000" />
+      <workItem from="1682555604135" duration="688000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1676069305411</created>
@@ -431,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680820706641</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Chinese Postman Problem | Eulerian Cycles">
+      <created>1681171280600</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1681171280600</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,6 +472,7 @@
     <MESSAGE value="Tarjan Algorithm | Strongly Connected Component" />
     <MESSAGE value="Ford Fulkerson Algorithm | Maximum Flow" />
     <MESSAGE value="Travelling Salesman Problem | Hamiltonian Cycles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Travelling Salesman Problem | Hamiltonian Cycles" />
+    <MESSAGE value="Chinese Postman Problem | Eulerian Cycles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chinese Postman Problem | Eulerian Cycles" />
   </component>
 </project>
