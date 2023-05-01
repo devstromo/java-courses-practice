@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0982d1fa-5f3e-4134-ba5c-502a32bf0606" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/thread_manipulation/synchronization/Synchronization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/thread_manipulation/locking/Locking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +71,20 @@
       <recent name="com.devstromo.bfs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Synchronization">
+  <component name="RunManager" selected="Application.Locking">
+    <configuration name="Locking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.devstromo.thread_manipulation.locking.Locking" />
+      <module name="multithreading-and-parallel-computing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.devstromo.thread_manipulation.locking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Synchronization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.devstromo.thread_manipulation.synchronization.Synchronization" />
       <module name="multithreading-and-parallel-computing" />
@@ -124,28 +137,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OpenCPPUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="graph-algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.devstromo.euler_cycle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.devstromo.euler_cycle" />
-      <option name="MAIN_CLASS_NAME" value="com.devstromo.euler_cycle.OpenCPPUnitTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Locking" />
         <item itemvalue="Application.Synchronization" />
         <item itemvalue="Application.com.devstromo.thread_manipulation.join.ThreadManipulation" />
         <item itemvalue="Application.com.devstromo.thread_manipulation.runnable.ThreadManipulation" />
         <item itemvalue="Application.ThreadManipulation" />
-        <item itemvalue="JUnit.OpenCPPUnitTest" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +179,8 @@
       <workItem from="1681169088702" duration="2531000" />
       <workItem from="1682555604135" duration="1819000" />
       <workItem from="1682636481518" duration="2215000" />
-      <workItem from="1682893541965" duration="1637000" />
+      <workItem from="1682893541965" duration="1889000" />
+      <workItem from="1682953437257" duration="306000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1676069305411</created>
@@ -456,7 +455,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682639952622</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Multi-thread Processing | Synchronization">
+      <created>1682895415848</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1682895415848</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -466,7 +472,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Breadth First Search" />
     <MESSAGE value="Breadth First Search | Web Crawler" />
     <MESSAGE value="Depth First Search | Stack" />
     <MESSAGE value="Depth First Search | Recursion" />
@@ -491,6 +496,7 @@
     <MESSAGE value="Multi-thread Processing" />
     <MESSAGE value="Multi-thread Processing | Starting Threads" />
     <MESSAGE value="Multi-thread Processing | Wait for threads to finish - join" />
-    <option name="LAST_COMMIT_MESSAGE" value="Multi-thread Processing | Wait for threads to finish - join" />
+    <MESSAGE value="Multi-thread Processing | Synchronization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Multi-thread Processing | Synchronization" />
   </component>
 </project>
