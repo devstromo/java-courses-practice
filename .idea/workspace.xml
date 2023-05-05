@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0982d1fa-5f3e-4134-ba5c-502a32bf0606" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/thread_manipulation/locks/Locks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/thread_manipulation/locks/ProducerConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/thread_manipulation/worker_volatile/Volatile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,19 +35,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "jdk.selected.JAVA_MODULE": "19",
-    "last_opened_file_path": "D:/WORK/PROYECTOS/JAVA/java-courses-practice/multithreading-and-parallel-computing/src/main/java/com/devstromo/thread_manipulation/locks"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/WORK/PROYECTOS/JAVA/java-courses-practice/multithreading-and-parallel-computing/src/main/java/com/devstromo/thread_manipulation/locks&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\WORK\PROYECTOS\JAVA\java-courses-practice\multithreading-and-parallel-computing\src\main\java\com\devstromo\thread_manipulation\locks" />
@@ -72,20 +71,7 @@
       <recent name="com.devstromo.bfs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.devstromo.thread_manipulation.locks.ProducerConsumer">
-    <configuration name="Locking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.devstromo.thread_manipulation.locking.Locking" />
-      <module name="multithreading-and-parallel-computing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.devstromo.thread_manipulation.locking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Volatile">
     <configuration name="Locks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.devstromo.thread_manipulation.locks.Locks" />
       <module name="multithreading-and-parallel-computing" />
@@ -105,6 +91,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.devstromo.thread_manipulation.consumer_producer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Volatile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.devstromo.thread_manipulation.worker_volatile.Volatile" />
+      <module name="multithreading-and-parallel-computing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.devstromo.thread_manipulation.worker_volatile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Volatile" />
         <item itemvalue="Application.com.devstromo.thread_manipulation.locks.ProducerConsumer" />
         <item itemvalue="Application.Locks" />
         <item itemvalue="Application.ProducerConsumer" />
         <item itemvalue="Application.WaitNotify" />
-        <item itemvalue="Application.Locking" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +182,8 @@
       <workItem from="1682893541965" duration="1889000" />
       <workItem from="1682953437257" duration="1238000" />
       <workItem from="1683076292703" duration="1510000" />
-      <workItem from="1683158505860" duration="2535000" />
+      <workItem from="1683158505860" duration="2664000" />
+      <workItem from="1683248313357" duration="2059000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1676069305411</created>
@@ -486,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683077790583</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Multi-thread Processing | Locks">
+      <created>1683161219681</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1683161219681</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -496,7 +503,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Depth First Search | Maze Escape" />
     <MESSAGE value="Depth First Search | Topological Ordering" />
     <MESSAGE value="Topological Ordering | Shortest Path" />
     <MESSAGE value="Cycle Detection" />
@@ -521,6 +527,7 @@
     <MESSAGE value="Multi-thread Processing | Locking" />
     <MESSAGE value="Multi-thread Processing | Wait and Notify" />
     <MESSAGE value="Multi-thread Processing | Producer and Consumer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Multi-thread Processing | Producer and Consumer" />
+    <MESSAGE value="Multi-thread Processing | Locks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Multi-thread Processing | Locks" />
   </component>
 </project>
