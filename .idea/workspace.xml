@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0982d1fa-5f3e-4134-ba5c-502a32bf0606" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/thread_manipulation/deadlock/Deadlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/thread_manipulation/livelock/Livelock.java" beforeDir="false" afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/thread_manipulation/livelock/Livelock.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +70,7 @@
       <recent name="com.devstromo.bfs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Deadlock">
+  <component name="RunManager" selected="Application.Livelock">
     <configuration name="Deadlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.devstromo.thread_manipulation.deadlock.Deadlock" />
       <module name="multithreading-and-parallel-computing" />
@@ -85,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Locks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.devstromo.thread_manipulation.locks.Locks" />
+    <configuration name="Livelock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.devstromo.thread_manipulation.livelock.Livelock" />
       <module name="multithreading-and-parallel-computing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.devstromo.thread_manipulation.locks.*" />
+          <option name="PATTERN" value="com.devstromo.thread_manipulation.livelock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.devstromo.thread_manipulation.consumer_producer.ProducerConsumer" />
+    <configuration name="Locks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.devstromo.thread_manipulation.locks.Locks" />
       <module name="multithreading-and-parallel-computing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.devstromo.thread_manipulation.consumer_producer.*" />
+          <option name="PATTERN" value="com.devstromo.thread_manipulation.locks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Livelock" />
         <item itemvalue="Application.Deadlock" />
         <item itemvalue="Application.Volatile" />
         <item itemvalue="Application.com.devstromo.thread_manipulation.locks.ProducerConsumer" />
         <item itemvalue="Application.Locks" />
-        <item itemvalue="Application.ProducerConsumer" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +183,7 @@
       <workItem from="1683076292703" duration="1510000" />
       <workItem from="1683158505860" duration="2664000" />
       <workItem from="1683248313357" duration="2223000" />
-      <workItem from="1683344994816" duration="1322000" />
+      <workItem from="1683344994816" duration="1696000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1676069305411</created>
@@ -501,7 +500,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683251338677</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Multi-thread Processing | Deadlock">
+      <created>1683347062019</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1683347062019</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Multi-thread Processing | Deadlock">
+      <created>1683347115194</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1683347115194</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,7 +524,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Topological Ordering | Shortest Path" />
     <MESSAGE value="Cycle Detection" />
     <MESSAGE value="Dijkstra Algorithm" />
     <MESSAGE value="Longest Path Algorithm" />
@@ -536,6 +548,7 @@
     <MESSAGE value="Multi-thread Processing | Producer and Consumer" />
     <MESSAGE value="Multi-thread Processing | Locks" />
     <MESSAGE value="Multi-thread Processing | Volatile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Multi-thread Processing | Volatile" />
+    <MESSAGE value="Multi-thread Processing | Deadlock" />
+    <option name="LAST_COMMIT_MESSAGE" value="Multi-thread Processing | Deadlock" />
   </component>
 </project>
