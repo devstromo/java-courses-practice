@@ -3,7 +3,7 @@ package com.devstromo.thread_manipulation.deadlock;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-public class Deadlock {
+class Deadlock {
 
     private final Lock lock1 = new ReentrantLock(true);
     private final Lock lock2 = new ReentrantLock(true);
