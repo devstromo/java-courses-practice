@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0982d1fa-5f3e-4134-ba5c-502a32bf0606" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/thread_manipulation/semaphores/Semaphores.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/thread_manipulation/executors/fixed/FixedThreadExecutors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/thread_manipulation/executors/single/SingleThreadExecutors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +72,7 @@
       <recent name="com.devstromo.bfs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Semaphores">
+  <component name="RunManager" selected="Application.FixedThreadExecutors">
     <configuration name="AtomicIntegerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.devstromo.thread_manipulation.atomics.AtomicIntegerExample" />
       <module name="multithreading-and-parallel-computing" />
@@ -85,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Deadlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.devstromo.thread_manipulation.deadlock.Deadlock" />
+    <configuration name="FixedThreadExecutors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.devstromo.thread_manipulation.executors.fixed.FixedThreadExecutors" />
       <module name="multithreading-and-parallel-computing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.devstromo.thread_manipulation.deadlock.*" />
+          <option name="PATTERN" value="com.devstromo.thread_manipulation.executors.fixed.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Volatile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.devstromo.thread_manipulation.worker_volatile.Volatile" />
+    <configuration name="SingleThreadExecutors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.devstromo.thread_manipulation.executors.single.SingleThreadExecutors" />
       <module name="multithreading-and-parallel-computing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.devstromo.thread_manipulation.worker_volatile.*" />
+          <option name="PATTERN" value="com.devstromo.thread_manipulation.executors.single.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FixedThreadExecutors" />
+        <item itemvalue="Application.SingleThreadExecutors" />
         <item itemvalue="Application.Semaphores" />
         <item itemvalue="Application.AtomicIntegerExample" />
         <item itemvalue="Application.Livelock" />
-        <item itemvalue="Application.Deadlock" />
-        <item itemvalue="Application.Volatile" />
       </list>
     </recent_temporary>
   </component>
@@ -185,14 +186,8 @@
       <workItem from="1683158505860" duration="2664000" />
       <workItem from="1683248313357" duration="2223000" />
       <workItem from="1683344994816" duration="2831000" />
-      <workItem from="1683479761571" duration="1739000" />
-    </task>
-    <task id="LOCAL-00001" summary="initial commit">
-      <created>1676069305411</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1676069305412</updated>
+      <workItem from="1683479761571" duration="1771000" />
+      <workItem from="1683589013530" duration="1405000" />
     </task>
     <task id="LOCAL-00002" summary="Adjacency Matrix | List">
       <created>1676070970982</created>
@@ -530,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683347957652</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Multi-thread Processing | Semaphore">
+      <created>1683481516936</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1683481516937</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -540,7 +542,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Longest Path Algorithm" />
     <MESSAGE value="Bellman-Ford Algorithm" />
     <MESSAGE value="Bellman-Ford Algorithm | Arbitrage On Forex" />
     <MESSAGE value="Kruskal's Algorithm | Union-Find" />
@@ -565,6 +566,7 @@
     <MESSAGE value="Multi-thread Processing | Deadlock" />
     <MESSAGE value="Multi-thread Processing | Livelock" />
     <MESSAGE value="Multi-thread Processing | AtomicInteger" />
-    <option name="LAST_COMMIT_MESSAGE" value="Multi-thread Processing | AtomicInteger" />
+    <MESSAGE value="Multi-thread Processing | Semaphore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Multi-thread Processing | Semaphore" />
   </component>
 </project>
