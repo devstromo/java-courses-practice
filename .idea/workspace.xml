@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0982d1fa-5f3e-4134-ba5c-502a32bf0606" name="Changes" comment="" />
+    <list default="true" id="0982d1fa-5f3e-4134-ba5c-502a32bf0606" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/thread_manipulation/executors/stop/ThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,20 +71,7 @@
       <recent name="com.devstromo.bfs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ScheduleThreadPool">
-    <configuration name="AtomicIntegerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.devstromo.thread_manipulation.atomics.AtomicIntegerExample" />
-      <module name="multithreading-and-parallel-computing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.devstromo.thread_manipulation.atomics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ThreadPool">
     <configuration name="FixedThreadExecutors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.devstromo.thread_manipulation.executors.fixed.FixedThreadExecutors" />
       <module name="multithreading-and-parallel-computing" />
@@ -134,13 +124,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.devstromo.thread_manipulation.executors.stop.ThreadPool" />
+      <module name="multithreading-and-parallel-computing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.devstromo.thread_manipulation.executors.stop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadPool" />
         <item itemvalue="Application.ScheduleThreadPool" />
         <item itemvalue="Application.FixedThreadExecutors" />
         <item itemvalue="Application.SingleThreadExecutors" />
         <item itemvalue="Application.Semaphores" />
-        <item itemvalue="Application.AtomicIntegerExample" />
       </list>
     </recent_temporary>
   </component>
@@ -184,13 +187,7 @@
       <workItem from="1683344994816" duration="2831000" />
       <workItem from="1683479761571" duration="1771000" />
       <workItem from="1683589013530" duration="1528000" />
-    </task>
-    <task id="LOCAL-00003" summary="Add README.md">
-      <created>1676071238073</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1676071238073</updated>
+      <workItem from="1683759571103" duration="641000" />
     </task>
     <task id="LOCAL-00004" summary="Breadth First Search">
       <created>1676137185237</created>
@@ -528,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683590524025</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Multi-thread Processing | Executors | ScheduleExecutor">
+      <created>1683759884012</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1683759884012</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -538,7 +542,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Bellman-Ford Algorithm | Arbitrage On Forex" />
     <MESSAGE value="Kruskal's Algorithm | Union-Find" />
     <MESSAGE value="Kruskal's Algorithm" />
     <MESSAGE value="Lazy Prim's Algorithm" />
@@ -563,6 +566,7 @@
     <MESSAGE value="Multi-thread Processing | AtomicInteger" />
     <MESSAGE value="Multi-thread Processing | Semaphore" />
     <MESSAGE value="Multi-thread Processing | Executors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Multi-thread Processing | Executors" />
+    <MESSAGE value="Multi-thread Processing | Executors | ScheduleExecutor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Multi-thread Processing | Executors | ScheduleExecutor" />
   </component>
 </project>
