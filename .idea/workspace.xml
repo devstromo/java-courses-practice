@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0982d1fa-5f3e-4134-ba5c-502a32bf0606" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/thread_manipulation/executors/stop/ThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/thread_manipulation/callable/CallableExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +72,20 @@
       <recent name="com.devstromo.bfs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreadPool">
+  <component name="RunManager" selected="Application.CallableExample">
+    <configuration name="CallableExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.devstromo.thread_manipulation.callable.CallableExample" />
+      <module name="multithreading-and-parallel-computing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.devstromo.thread_manipulation.callable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FixedThreadExecutors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.devstromo.thread_manipulation.executors.fixed.FixedThreadExecutors" />
       <module name="multithreading-and-parallel-computing" />
@@ -91,19 +105,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.devstromo.thread_manipulation.executors.scheduled.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Semaphores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.devstromo.thread_manipulation.semaphores.Semaphores" />
-      <module name="multithreading-and-parallel-computing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.devstromo.thread_manipulation.semaphores.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CallableExample" />
         <item itemvalue="Application.ThreadPool" />
         <item itemvalue="Application.ScheduleThreadPool" />
         <item itemvalue="Application.FixedThreadExecutors" />
         <item itemvalue="Application.SingleThreadExecutors" />
-        <item itemvalue="Application.Semaphores" />
       </list>
     </recent_temporary>
   </component>
@@ -187,14 +188,7 @@
       <workItem from="1683344994816" duration="2831000" />
       <workItem from="1683479761571" duration="1771000" />
       <workItem from="1683589013530" duration="1528000" />
-      <workItem from="1683759571103" duration="641000" />
-    </task>
-    <task id="LOCAL-00004" summary="Breadth First Search">
-      <created>1676137185237</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1676137185237</updated>
+      <workItem from="1683759571103" duration="1837000" />
     </task>
     <task id="LOCAL-00005" summary="Breadth First Search | Web Crawler">
       <created>1676243352844</created>
@@ -532,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683759884012</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Multi-thread Processing | Executors | Stop executors">
+      <created>1683760222155</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1683760222155</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -542,7 +543,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Kruskal's Algorithm | Union-Find" />
     <MESSAGE value="Kruskal's Algorithm" />
     <MESSAGE value="Lazy Prim's Algorithm" />
     <MESSAGE value="Eager Prims Jarnik Algorithm" />
@@ -567,6 +567,7 @@
     <MESSAGE value="Multi-thread Processing | Semaphore" />
     <MESSAGE value="Multi-thread Processing | Executors" />
     <MESSAGE value="Multi-thread Processing | Executors | ScheduleExecutor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Multi-thread Processing | Executors | ScheduleExecutor" />
+    <MESSAGE value="Multi-thread Processing | Executors | Stop executors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Multi-thread Processing | Executors | Stop executors" />
   </component>
 </project>
