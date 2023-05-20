@@ -12,6 +12,9 @@ target/
 *.iml
 *.ipr
 
+#aws
+.idea/aws.xml
+
 ### Eclipse ###
 .apt_generated
 .classpath
