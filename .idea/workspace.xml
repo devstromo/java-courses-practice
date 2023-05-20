@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0982d1fa-5f3e-4134-ba5c-502a32bf0606" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/thread_manipulation/callable/CallableExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/thread_manipulation/latch/Latch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +72,7 @@
       <recent name="com.devstromo.bfs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CallableExample">
+  <component name="RunManager" selected="Application.Latch">
     <configuration name="CallableExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.devstromo.thread_manipulation.callable.CallableExample" />
       <module name="multithreading-and-parallel-computing" />
@@ -99,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScheduleThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.devstromo.thread_manipulation.executors.scheduled.ScheduleThreadPool" />
+    <configuration name="Latch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.devstromo.thread_manipulation.latch.Latch" />
       <module name="multithreading-and-parallel-computing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.devstromo.thread_manipulation.executors.scheduled.*" />
+          <option name="PATTERN" value="com.devstromo.thread_manipulation.latch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleThreadExecutors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.devstromo.thread_manipulation.executors.single.SingleThreadExecutors" />
+    <configuration name="ScheduleThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.devstromo.thread_manipulation.executors.scheduled.ScheduleThreadPool" />
       <module name="multithreading-and-parallel-computing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.devstromo.thread_manipulation.executors.single.*" />
+          <option name="PATTERN" value="com.devstromo.thread_manipulation.executors.scheduled.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Latch" />
         <item itemvalue="Application.CallableExample" />
         <item itemvalue="Application.ThreadPool" />
         <item itemvalue="Application.ScheduleThreadPool" />
         <item itemvalue="Application.FixedThreadExecutors" />
-        <item itemvalue="Application.SingleThreadExecutors" />
       </list>
     </recent_temporary>
   </component>
@@ -188,14 +188,8 @@
       <workItem from="1683344994816" duration="2831000" />
       <workItem from="1683479761571" duration="1771000" />
       <workItem from="1683589013530" duration="1528000" />
-      <workItem from="1683759571103" duration="1837000" />
-    </task>
-    <task id="LOCAL-00005" summary="Breadth First Search | Web Crawler">
-      <created>1676243352844</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1676243352844</updated>
+      <workItem from="1683759571103" duration="1860000" />
+      <workItem from="1684620911102" duration="708000" />
     </task>
     <task id="LOCAL-00006" summary="Breadth First Search | Web Crawler">
       <created>1676332894706</created>
@@ -533,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683760222155</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Multi-thread Processing | Executors | Callable">
+      <created>1683761420091</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1683761420091</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -543,7 +544,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Kruskal's Algorithm" />
     <MESSAGE value="Lazy Prim's Algorithm" />
     <MESSAGE value="Eager Prims Jarnik Algorithm" />
     <MESSAGE value="Kosajaru Algorithm | Strongly Connected Component" />
@@ -568,6 +568,7 @@
     <MESSAGE value="Multi-thread Processing | Executors" />
     <MESSAGE value="Multi-thread Processing | Executors | ScheduleExecutor" />
     <MESSAGE value="Multi-thread Processing | Executors | Stop executors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Multi-thread Processing | Executors | Stop executors" />
+    <MESSAGE value="Multi-thread Processing | Executors | Callable" />
+    <option name="LAST_COMMIT_MESSAGE" value="Multi-thread Processing | Executors | Callable" />
   </component>
 </project>
