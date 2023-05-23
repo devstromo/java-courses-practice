@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0982d1fa-5f3e-4134-ba5c-502a32bf0606" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/thread_manipulation/latch/Latch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/thread_manipulation/latch/CyclicBarrierExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/thread_manipulation/latch/Latch.java" beforeDir="false" afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/thread_manipulation/latch/Latch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +73,7 @@
       <recent name="com.devstromo.bfs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Latch">
+  <component name="RunManager" selected="Application.CyclicBarrierExample">
     <configuration name="CallableExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.devstromo.thread_manipulation.callable.CallableExample" />
       <module name="multithreading-and-parallel-computing" />
@@ -86,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FixedThreadExecutors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.devstromo.thread_manipulation.executors.fixed.FixedThreadExecutors" />
+    <configuration name="CyclicBarrierExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.devstromo.thread_manipulation.latch.CyclicBarrierExample" />
       <module name="multithreading-and-parallel-computing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.devstromo.thread_manipulation.executors.fixed.*" />
+          <option name="PATTERN" value="com.devstromo.thread_manipulation.latch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CyclicBarrierExample" />
         <item itemvalue="Application.Latch" />
         <item itemvalue="Application.CallableExample" />
         <item itemvalue="Application.ThreadPool" />
         <item itemvalue="Application.ScheduleThreadPool" />
-        <item itemvalue="Application.FixedThreadExecutors" />
       </list>
     </recent_temporary>
   </component>
@@ -189,28 +190,8 @@
       <workItem from="1683479761571" duration="1771000" />
       <workItem from="1683589013530" duration="1528000" />
       <workItem from="1683759571103" duration="1860000" />
-      <workItem from="1684620911102" duration="708000" />
-    </task>
-    <task id="LOCAL-00006" summary="Breadth First Search | Web Crawler">
-      <created>1676332894706</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1676332894706</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Depth First Search | Stack">
-      <created>1676333774099</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1676333774099</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Depth First Search | Recursion">
-      <created>1676333986344</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1676333986344</updated>
+      <workItem from="1684620911102" duration="969000" />
+      <workItem from="1684883853804" duration="994000" />
     </task>
     <task id="LOCAL-00009" summary="Depth First Search | Maze Escape">
       <created>1676419129868</created>
@@ -534,7 +515,28 @@
       <option name="project" value="LOCAL" />
       <updated>1683761420091</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Multi-thread Processing | Concurrent Collections | Latch">
+      <created>1684621735394</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1684621735395</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Multi-thread Processing | Concurrent Collections | Latch">
+      <created>1684621749784</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1684621749784</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Multi-thread Processing | Concurrent Collections | Latch">
+      <created>1684621845614</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1684621845614</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -544,7 +546,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Lazy Prim's Algorithm" />
     <MESSAGE value="Eager Prims Jarnik Algorithm" />
     <MESSAGE value="Kosajaru Algorithm | Strongly Connected Component" />
     <MESSAGE value="Tarjan Algorithm | Strongly Connected Component" />
@@ -569,6 +570,7 @@
     <MESSAGE value="Multi-thread Processing | Executors | ScheduleExecutor" />
     <MESSAGE value="Multi-thread Processing | Executors | Stop executors" />
     <MESSAGE value="Multi-thread Processing | Executors | Callable" />
-    <option name="LAST_COMMIT_MESSAGE" value="Multi-thread Processing | Executors | Callable" />
+    <MESSAGE value="Multi-thread Processing | Concurrent Collections | Latch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Multi-thread Processing | Concurrent Collections | Latch" />
   </component>
 </project>
