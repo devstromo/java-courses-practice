@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0982d1fa-5f3e-4134-ba5c-502a32bf0606" name="Changes" comment="">
+    <list default="true" id="0982d1fa-5f3e-4134-ba5c-502a32bf0606" name="Changes" comment="Multi-thread Processing | Concurrent Collections | ArrayBlockingQueue">
       <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/thread_manipulation/queues/BlockingQueuesExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/thread_manipulation/queues/DelayQueuesExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +73,7 @@
       <recent name="com.devstromo.bfs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BlockingQueuesExample">
+  <component name="RunManager" selected="Application.DelayQueuesExample">
     <configuration name="BlockingQueuesExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.devstromo.thread_manipulation.queues.BlockingQueuesExample" />
       <module name="multithreading-and-parallel-computing" />
@@ -113,6 +113,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DelayQueuesExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.devstromo.thread_manipulation.queues.DelayQueuesExample" />
+      <module name="multithreading-and-parallel-computing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.devstromo.thread_manipulation.queues.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Latch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.devstromo.thread_manipulation.latch.Latch" />
       <module name="multithreading-and-parallel-computing" />
@@ -126,26 +139,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.devstromo.thread_manipulation.executors.stop.ThreadPool" />
-      <module name="multithreading-and-parallel-computing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.devstromo.thread_manipulation.executors.stop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DelayQueuesExample" />
         <item itemvalue="Application.BlockingQueuesExample" />
         <item itemvalue="Application.CyclicBarrierExample" />
         <item itemvalue="Application.Latch" />
         <item itemvalue="Application.CallableExample" />
-        <item itemvalue="Application.ThreadPool" />
       </list>
     </recent_temporary>
   </component>
@@ -191,21 +191,7 @@
       <workItem from="1683589013530" duration="1528000" />
       <workItem from="1683759571103" duration="1860000" />
       <workItem from="1684620911102" duration="969000" />
-      <workItem from="1684883853804" duration="1994000" />
-    </task>
-    <task id="LOCAL-00010" summary="Depth First Search | Topological Ordering">
-      <created>1676502081954</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1676502081955</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Topological Ordering | Shortest Path">
-      <created>1676588317971</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1676588317971</updated>
+      <workItem from="1684883853804" duration="2987000" />
     </task>
     <task id="LOCAL-00012" summary="Topological Ordering | Shortest Path">
       <created>1676589315211</created>
@@ -536,7 +522,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684885021192</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Multi-thread Processing | Concurrent Collections | ArrayBlockingQueue">
+      <created>1684886011009</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1684886011009</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Multi-thread Processing | Concurrent Collections | ArrayBlockingQueue">
+      <created>1684886089833</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1684886089833</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -546,7 +546,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Kosajaru Algorithm | Strongly Connected Component" />
     <MESSAGE value="Tarjan Algorithm | Strongly Connected Component" />
     <MESSAGE value="Ford Fulkerson Algorithm | Maximum Flow" />
     <MESSAGE value="Travelling Salesman Problem | Hamiltonian Cycles" />
@@ -571,6 +570,7 @@
     <MESSAGE value="Multi-thread Processing | Executors | Callable" />
     <MESSAGE value="Multi-thread Processing | Concurrent Collections | Latch" />
     <MESSAGE value="Multi-thread Processing | Concurrent Collections | CyclicBarrier" />
-    <option name="LAST_COMMIT_MESSAGE" value="Multi-thread Processing | Concurrent Collections | CyclicBarrier" />
+    <MESSAGE value="Multi-thread Processing | Concurrent Collections | ArrayBlockingQueue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Multi-thread Processing | Concurrent Collections | ArrayBlockingQueue" />
   </component>
 </project>
