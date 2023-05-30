@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0982d1fa-5f3e-4134-ba5c-502a32bf0606" name="Changes" comment="Multi-thread Processing | Concurrent Collections | ArrayBlockingQueue">
       <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/thread_manipulation/queues/PriorityBlockingQueuesExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/thread_manipulation/maps/ConcurrentMapExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,13 +74,13 @@
       <recent name="com.devstromo.bfs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PriorityBlockingQueuesExample">
-    <configuration name="BlockingQueuesExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.devstromo.thread_manipulation.queues.BlockingQueuesExample" />
+  <component name="RunManager" selected="Application.ConcurrentMapExample">
+    <configuration name="ConcurrentMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.devstromo.thread_manipulation.maps.ConcurrentMapExample" />
       <module name="multithreading-and-parallel-computing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.devstromo.thread_manipulation.queues.*" />
+          <option name="PATTERN" value="com.devstromo.thread_manipulation.maps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConcurrentMapExample" />
         <item itemvalue="Application.PriorityBlockingQueuesExample" />
-        <item itemvalue="Application.DelayQueuesExample" />
-        <item itemvalue="Application.BlockingQueuesExample" />
-        <item itemvalue="Application.CyclicBarrierExample" />
         <item itemvalue="Application.Latch" />
+        <item itemvalue="Application.DelayQueuesExample" />
+        <item itemvalue="Application.CyclicBarrierExample" />
       </list>
     </recent_temporary>
   </component>
@@ -193,14 +193,8 @@
       <workItem from="1683759571103" duration="1860000" />
       <workItem from="1684620911102" duration="969000" />
       <workItem from="1684883853804" duration="3282000" />
-      <workItem from="1685144256282" duration="1552000" />
-    </task>
-    <task id="LOCAL-00014" summary="Cycle Detection">
-      <created>1676677144682</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1676677144682</updated>
+      <workItem from="1685144256282" duration="2343000" />
+      <workItem from="1685408773801" duration="354000" />
     </task>
     <task id="LOCAL-00015" summary="Cycle Detection">
       <created>1676677602220</created>
@@ -538,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684886969788</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Multi-thread Processing | Concurrent Collections | BlockingQueue">
+      <created>1685145939712</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1685145939712</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -559,7 +560,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Ford Fulkerson Algorithm | Maximum Flow" />
     <MESSAGE value="Travelling Salesman Problem | Hamiltonian Cycles" />
     <MESSAGE value="Chinese Postman Problem | Eulerian Cycles" />
     <MESSAGE value="Sequential Processing" />
@@ -584,6 +584,7 @@
     <MESSAGE value="Multi-thread Processing | Concurrent Collections | CyclicBarrier" />
     <MESSAGE value="Multi-thread Processing | Concurrent Collections | ArrayBlockingQueue" />
     <MESSAGE value="Multi-thread Processing | Concurrent Collections | DelayQueue" />
-    <option name="LAST_COMMIT_MESSAGE" value="Multi-thread Processing | Concurrent Collections | DelayQueue" />
+    <MESSAGE value="Multi-thread Processing | Concurrent Collections | BlockingQueue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Multi-thread Processing | Concurrent Collections | BlockingQueue" />
   </component>
 </project>
