@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="0982d1fa-5f3e-4134-ba5c-502a32bf0606" name="Changes" comment="Multi-thread Processing | Concurrent Collections | ArrayBlockingQueue">
       <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/thread_manipulation/exchanger/ExchangerExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/thread_manipulation/array/ConcurrentArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/thread_manipulation/array/ConcurrentArrayExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/thread_manipulation/array/ReadTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/thread_manipulation/array/WriteTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,13 +77,13 @@
       <recent name="com.devstromo.bfs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExchangerExample">
-    <configuration name="ConcurrentMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.devstromo.thread_manipulation.maps.ConcurrentMapExample" />
+  <component name="RunManager" selected="Application.ConcurrentArrayExample">
+    <configuration name="ConcurrentArrayExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.devstromo.thread_manipulation.array.ConcurrentArrayExample" />
       <module name="multithreading-and-parallel-computing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.devstromo.thread_manipulation.maps.*" />
+          <option name="PATTERN" value="com.devstromo.thread_manipulation.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DelayQueuesExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.devstromo.thread_manipulation.queues.DelayQueuesExample" />
+    <configuration name="ConcurrentMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.devstromo.thread_manipulation.maps.ConcurrentMapExample" />
       <module name="multithreading-and-parallel-computing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.devstromo.thread_manipulation.queues.*" />
+          <option name="PATTERN" value="com.devstromo.thread_manipulation.maps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConcurrentArrayExample" />
         <item itemvalue="Application.ExchangerExample" />
         <item itemvalue="Application.ConcurrentMapExample" />
         <item itemvalue="Application.PriorityBlockingQueuesExample" />
         <item itemvalue="Application.Latch" />
-        <item itemvalue="Application.DelayQueuesExample" />
       </list>
     </recent_temporary>
   </component>
@@ -195,14 +198,8 @@
       <workItem from="1684883853804" duration="3282000" />
       <workItem from="1685144256282" duration="2343000" />
       <workItem from="1685408773801" duration="606000" />
-      <workItem from="1685921006205" duration="669000" />
-    </task>
-    <task id="LOCAL-00016" summary="Dijkstra Algorithm">
-      <created>1676835038992</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1676835038992</updated>
+      <workItem from="1685921006205" duration="801000" />
+      <workItem from="1686008291974" duration="1684000" />
     </task>
     <task id="LOCAL-00017" summary="Longest Path Algorithm">
       <created>1676906559940</created>
@@ -540,7 +537,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685409228626</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Multi-thread Processing | Concurrent Collections | Exchanger">
+      <created>1685921793873</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1685921793874</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -561,7 +565,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Chinese Postman Problem | Eulerian Cycles" />
     <MESSAGE value="Sequential Processing" />
     <MESSAGE value="Multi-thread Processing" />
     <MESSAGE value="Multi-thread Processing | Starting Threads" />
@@ -586,6 +589,7 @@
     <MESSAGE value="Multi-thread Processing | Concurrent Collections | DelayQueue" />
     <MESSAGE value="Multi-thread Processing | Concurrent Collections | BlockingQueue" />
     <MESSAGE value="Multi-thread Processing | Concurrent Collections | ConcurrentMap" />
-    <option name="LAST_COMMIT_MESSAGE" value="Multi-thread Processing | Concurrent Collections | ConcurrentMap" />
+    <MESSAGE value="Multi-thread Processing | Concurrent Collections | Exchanger" />
+    <option name="LAST_COMMIT_MESSAGE" value="Multi-thread Processing | Concurrent Collections | Exchanger" />
   </component>
 </project>
