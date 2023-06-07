@@ -6,10 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="0982d1fa-5f3e-4134-ba5c-502a32bf0606" name="Changes" comment="Multi-thread Processing | Concurrent Collections | ArrayBlockingQueue">
       <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/thread_manipulation/array/ConcurrentArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/thread_manipulation/array/ConcurrentArrayExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/thread_manipulation/array/ReadTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/thread_manipulation/array/WriteTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/problems/dinning_philosophers/Chopstick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/problems/dinning_philosophers/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/problems/dinning_philosophers/DiningPhilosophers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/problems/dinning_philosophers/State.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -199,14 +199,8 @@
       <workItem from="1685144256282" duration="2343000" />
       <workItem from="1685408773801" duration="606000" />
       <workItem from="1685921006205" duration="801000" />
-      <workItem from="1686008291974" duration="1684000" />
-    </task>
-    <task id="LOCAL-00017" summary="Longest Path Algorithm">
-      <created>1676906559940</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1676906559940</updated>
+      <workItem from="1686008291974" duration="1910000" />
+      <workItem from="1686096900900" duration="314000" />
     </task>
     <task id="LOCAL-00018" summary="Bellman-Ford Algorithm">
       <created>1677013355351</created>
@@ -544,7 +538,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685921793874</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Multi-thread Processing | Concurrent Collections | CopyOnWriteArrays">
+      <created>1686011411169</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1686011411169</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -565,7 +566,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Sequential Processing" />
     <MESSAGE value="Multi-thread Processing" />
     <MESSAGE value="Multi-thread Processing | Starting Threads" />
     <MESSAGE value="Multi-thread Processing | Wait for threads to finish - join" />
@@ -590,6 +590,7 @@
     <MESSAGE value="Multi-thread Processing | Concurrent Collections | BlockingQueue" />
     <MESSAGE value="Multi-thread Processing | Concurrent Collections | ConcurrentMap" />
     <MESSAGE value="Multi-thread Processing | Concurrent Collections | Exchanger" />
-    <option name="LAST_COMMIT_MESSAGE" value="Multi-thread Processing | Concurrent Collections | Exchanger" />
+    <MESSAGE value="Multi-thread Processing | Concurrent Collections | CopyOnWriteArrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="Multi-thread Processing | Concurrent Collections | CopyOnWriteArrays" />
   </component>
 </project>
