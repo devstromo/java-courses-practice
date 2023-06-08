@@ -54,6 +54,10 @@ public class Philosopher implements Runnable {
         return full;
     }
 
+    public int getEatingCounter() {
+        return eatingCounter;
+    }
+
     @Override
     public String toString() {
         return "Philosopher " + id;
