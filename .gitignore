@@ -13,7 +13,7 @@ target/
 *.ipr
 
 #aws
-.idea/aws.xml
+/.idea/aws.xml
 
 ### Eclipse ###
 .apt_generated
@@ -40,4 +40,3 @@ build/
 ### Mac OS ###
 .DS_Store
 
-/.idea/aws.xml

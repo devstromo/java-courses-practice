@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0982d1fa-5f3e-4134-ba5c-502a32bf0606" name="Changes" comment="Multi-thread Processing | Concurrent Collections | ArrayBlockingQueue">
       <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/problems/dinning_philosophers/Philosopher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/problems/dinning_philosophers/Chopstick.java" beforeDir="false" afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/problems/dinning_philosophers/Chopstick.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,14 +197,9 @@
       <workItem from="1685921006205" duration="801000" />
       <workItem from="1686008291974" duration="1910000" />
       <workItem from="1686096900900" duration="522000" />
-      <workItem from="1686178279682" duration="1461000" />
-    </task>
-    <task id="LOCAL-00020" summary="Kruskal's Algorithm">
-      <created>1677625131246</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1677625131246</updated>
+      <workItem from="1686178279682" duration="1746000" />
+      <workItem from="1686180066552" duration="89000" />
+      <workItem from="1686265800401" duration="70000" />
     </task>
     <task id="LOCAL-00021" summary="Kruskal's Algorithm | Union-Find">
       <created>1677625947777</created>
@@ -544,7 +537,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686097364461</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="Multi-thread Processing | Dining Philosophers Problem">
+      <created>1686179955384</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1686179955384</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -565,7 +565,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Multi-thread Processing | Starting Threads" />
     <MESSAGE value="Multi-thread Processing | Wait for threads to finish - join" />
     <MESSAGE value="Multi-thread Processing | Synchronization" />
     <MESSAGE value="Multi-thread Processing | Locking" />
@@ -590,6 +589,7 @@
     <MESSAGE value="Multi-thread Processing | Concurrent Collections | CopyOnWriteArrays" />
     <MESSAGE value="Multi-thread Processing | Dining philosophers problems" />
     <MESSAGE value="Multi-thread Processing | Concurrent Collections | ArrayBlockingQueue" />
-    <option name="LAST_COMMIT_MESSAGE" value="Multi-thread Processing | Concurrent Collections | ArrayBlockingQueue" />
+    <MESSAGE value="Multi-thread Processing | Dining Philosophers Problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Multi-thread Processing | Dining Philosophers Problem" />
   </component>
 </project>
