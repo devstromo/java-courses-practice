@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0982d1fa-5f3e-4134-ba5c-502a32bf0606" name="Changes" comment="Multi-thread Processing | Concurrent Collections | ArrayBlockingQueue">
       <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/problems/dinning_philosophers/DiningPhilosophers.java" beforeDir="false" afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/problems/dinning_philosophers/DiningPhilosophers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +73,7 @@
       <recent name="com.devstromo.bfs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConcurrentArrayExample">
+  <component name="RunManager" selected="Application.DiningPhilosophers">
     <configuration name="ConcurrentArrayExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.devstromo.thread_manipulation.array.ConcurrentArrayExample" />
       <module name="multithreading-and-parallel-computing" />
@@ -100,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExchangerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.devstromo.thread_manipulation.exchanger.ExchangerExample" />
+    <configuration name="DiningPhilosophers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.devstromo.problems.dinning_philosophers.DiningPhilosophers" />
       <module name="multithreading-and-parallel-computing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.devstromo.thread_manipulation.exchanger.*" />
+          <option name="PATTERN" value="com.devstromo.problems.dinning_philosophers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Latch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.devstromo.thread_manipulation.latch.Latch" />
+    <configuration name="ExchangerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.devstromo.thread_manipulation.exchanger.ExchangerExample" />
       <module name="multithreading-and-parallel-computing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.devstromo.thread_manipulation.latch.*" />
+          <option name="PATTERN" value="com.devstromo.thread_manipulation.exchanger.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DiningPhilosophers" />
         <item itemvalue="Application.ConcurrentArrayExample" />
         <item itemvalue="Application.ExchangerExample" />
         <item itemvalue="Application.ConcurrentMapExample" />
         <item itemvalue="Application.PriorityBlockingQueuesExample" />
-        <item itemvalue="Application.Latch" />
       </list>
     </recent_temporary>
   </component>
@@ -200,14 +200,7 @@
       <workItem from="1686178279682" duration="1746000" />
       <workItem from="1686180066552" duration="89000" />
       <workItem from="1686265800401" duration="70000" />
-      <workItem from="1686265897004" duration="727000" />
-    </task>
-    <task id="LOCAL-00022" summary="Kruskal's Algorithm">
-      <created>1677626634140</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1677626634140</updated>
+      <workItem from="1686265897004" duration="1288000" />
     </task>
     <task id="LOCAL-00023" summary="Lazy Prim's Algorithm">
       <created>1677716246723</created>
@@ -545,7 +538,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686266037137</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="Multi-thread Processing | Dining Philosophers Problem">
+      <created>1686266740814</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1686266740814</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -589,8 +589,8 @@
     <MESSAGE value="Multi-thread Processing | Concurrent Collections | CopyOnWriteArrays" />
     <MESSAGE value="Multi-thread Processing | Dining philosophers problems" />
     <MESSAGE value="Multi-thread Processing | Concurrent Collections | ArrayBlockingQueue" />
-    <MESSAGE value="Multi-thread Processing | Dining Philosophers Problem" />
     <MESSAGE value="Multi-thread Processing | Git ignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Multi-thread Processing | Git ignore" />
+    <MESSAGE value="Multi-thread Processing | Dining Philosophers Problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Multi-thread Processing | Dining Philosophers Problem" />
   </component>
 </project>
