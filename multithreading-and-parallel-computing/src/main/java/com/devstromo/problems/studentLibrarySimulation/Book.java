@@ -15,11 +15,12 @@ public class Book {
     }
 
     public void read(Student student) throws InterruptedException {
-        lock.tryLock(10, TimeUnit.MINUTES);
+        lock.lock();
         System.out.println(student + " starts reading " + this);
         Thread.sleep(2000);
         lock.unlock();
         System.out.println(student + " has just finished reading " + this);
+
     }
 
     @Override

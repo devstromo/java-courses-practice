@@ -6,11 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0982d1fa-5f3e-4134-ba5c-502a32bf0606" name="Changes" comment="Multi-thread Processing | Concurrent Collections | ArrayBlockingQueue">
       <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/problems/studentLibrarySimulation/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/problems/student_library_simulation/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/problems/studentLibrarySimulation/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/problems/student_library_simulation/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/problems/studentLibrarySimulation/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/problems/student_library_simulation/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/problems/student_library_simulation/StudentLibrarySimulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/problems/studentLibrarySimulation/StudentLibrarySimulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/problems/studentLibrarySimulation/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/problems/studentLibrarySimulation/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/problems/studentLibrarySimulation/StudentLibrarySimulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/problems/studentLibrarySimulation/StudentLibrarySimulation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +74,7 @@
       <recent name="com.devstromo.bfs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DiningPhilosophers">
+  <component name="RunManager" selected="Application.StudentLibrarySimulation">
     <configuration name="ConcurrentArrayExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.devstromo.thread_manipulation.array.ConcurrentArrayExample" />
       <module name="multithreading-and-parallel-computing" />
@@ -130,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PriorityBlockingQueuesExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.devstromo.thread_manipulation.queues.PriorityBlockingQueuesExample" />
+    <configuration name="StudentLibrarySimulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.devstromo.problems.studentLibrarySimulation.StudentLibrarySimulation" />
       <module name="multithreading-and-parallel-computing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.devstromo.thread_manipulation.queues.*" />
+          <option name="PATTERN" value="com.devstromo.problems.studentLibrarySimulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StudentLibrarySimulation" />
         <item itemvalue="Application.DiningPhilosophers" />
         <item itemvalue="Application.ConcurrentArrayExample" />
         <item itemvalue="Application.ExchangerExample" />
         <item itemvalue="Application.ConcurrentMapExample" />
-        <item itemvalue="Application.PriorityBlockingQueuesExample" />
       </list>
     </recent_temporary>
   </component>
@@ -206,14 +203,7 @@
       <workItem from="1686265800401" duration="70000" />
       <workItem from="1686265897004" duration="1288000" />
       <workItem from="1686354254742" duration="331000" />
-      <workItem from="1686438460881" duration="616000" />
-    </task>
-    <task id="LOCAL-00025" summary="Lazy Prim's Algorithm">
-      <created>1677803136755</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1677803136755</updated>
+      <workItem from="1686438460881" duration="1187000" />
     </task>
     <task id="LOCAL-00026" summary="Eager Prims Jarnik Algorithm">
       <created>1677806031260</created>
@@ -551,7 +541,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686438782976</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Multi-thread Processing | Student library simulation">
+      <created>1686439253360</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1686439253360</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -593,9 +590,9 @@
     <MESSAGE value="Multi-thread Processing | Concurrent Collections | Exchanger" />
     <MESSAGE value="Multi-thread Processing | Concurrent Collections | CopyOnWriteArrays" />
     <MESSAGE value="Multi-thread Processing | Dining philosophers problems" />
-    <MESSAGE value="Multi-thread Processing | Concurrent Collections | ArrayBlockingQueue" />
     <MESSAGE value="Multi-thread Processing | Git ignore" />
     <MESSAGE value="Multi-thread Processing | Dining Philosophers Problem" />
+    <MESSAGE value="Multi-thread Processing | Concurrent Collections | ArrayBlockingQueue" />
     <MESSAGE value="Multi-thread Processing | Student library simulation" />
     <option name="LAST_COMMIT_MESSAGE" value="Multi-thread Processing | Student library simulation" />
   </component>
