@@ -1,7 +1,7 @@
-package com.devstromo.problems.student_library_simulation;
+package com.devstromo.problems.studentLibrarySimulation;
 
 public class StudentLibrarySimulation {
     public static void main(String[] args) {
-
+//Student student = new Student();
     }
 }

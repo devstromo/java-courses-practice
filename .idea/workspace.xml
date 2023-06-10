@@ -6,8 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="0982d1fa-5f3e-4134-ba5c-502a32bf0606" name="Changes" comment="Multi-thread Processing | Concurrent Collections | ArrayBlockingQueue">
       <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/problems/student_library_simulation/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/problems/student_library_simulation/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/problems/studentLibrarySimulation/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/problems/student_library_simulation/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/problems/studentLibrarySimulation/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/problems/student_library_simulation/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/problems/studentLibrarySimulation/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/problems/student_library_simulation/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/problems/student_library_simulation/StudentLibrarySimulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/problems/studentLibrarySimulation/StudentLibrarySimulation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,14 +206,7 @@
       <workItem from="1686265800401" duration="70000" />
       <workItem from="1686265897004" duration="1288000" />
       <workItem from="1686354254742" duration="331000" />
-      <workItem from="1686438460881" duration="302000" />
-    </task>
-    <task id="LOCAL-00024" summary="Lazy Prim's Algorithm">
-      <created>1677716424931</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1677716424931</updated>
+      <workItem from="1686438460881" duration="616000" />
     </task>
     <task id="LOCAL-00025" summary="Lazy Prim's Algorithm">
       <created>1677803136755</created>
@@ -548,7 +544,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686354568380</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="Multi-thread Processing | Student library simulation">
+      <created>1686438782975</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1686438782976</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

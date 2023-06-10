@@ -1,4 +1,4 @@
-package com.devstromo.problems.student_library_simulation;
+package com.devstromo.problems.studentLibrarySimulation;
 
 public class Constants {
 
