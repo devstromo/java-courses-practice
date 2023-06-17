@@ -1,18 +1,39 @@
 package com.devstromo.parallelization.merge_sort;
 
-public class MergeSort {
+public class ParallelMergeSort {
 
-    private int[] nums;
+    private final int[] nums;
 
-    private int[] tempArray;
+    private final int[] tempArray;
 
-    public MergeSort(int[] nums) {
+    public ParallelMergeSort(int[] nums) {
         this.nums = nums;
         this.tempArray = new int[nums.length];
     }
 
-    public void sort() {
-        mergeSort(0, nums.length - 1);
+    private Thread createdThread(int low, int high, int numOfThreads) {
+        return new Thread(() -> parallelMergeSort(low, high, numOfThreads / 2));
+    }
+
+    public void parallelMergeSort(int low, int high, int numOfThread) {
+        if (numOfThread <= 1) {
+            mergeSort(low, high);
+            return;
+        }
+        int middleIndex = (low + high) / 2;
+        var leftSorter = createdThread(low, middleIndex, numOfThread);
+        var rightSorter = createdThread(middleIndex+1, high, numOfThread);
+
+        leftSorter.start();
+        rightSorter.start();
+        try {
+            leftSorter.join();
+            rightSorter.join();
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+
+        merge(low, middleIndex, high);
     }
 
     private void mergeSort(int low, int high) {
@@ -72,9 +93,4 @@ public class MergeSort {
         }
     }
 
-    private void swap(int i, int j) {
-        int temp = nums[i];
-        nums[i] = nums[j];
-        nums[j] = temp;
-    }
 }
