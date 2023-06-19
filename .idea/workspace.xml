@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0982d1fa-5f3e-4134-ba5c-502a32bf0606" name="Changes" comment="Multi-thread Processing | Concurrent Collections | ArrayBlockingQueue">
       <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/parallelization/sum/ParallelSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/parallelization/sum/ParallelWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/parallelization/sum/SequentialSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/test/java/com/devstromo/parallelization/sum/SequentialSumUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/fork_join_framework/simple1/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/fork_join_framework/simple1/SimpleRecursionAction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +76,7 @@
       <recent name="com.devstromo.bfs" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SumUnitTest">
+  <component name="RunManager" selected="Application.com.devstromo.fork_join_framework.simple1.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.devstromo.parallelization.merge_sort.App" />
       <module name="multithreading-and-parallel-computing" />
@@ -92,17 +90,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSortUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="com.devstromo.fork_join_framework.simple1.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.devstromo.fork_join_framework.simple1.App" />
       <module name="multithreading-and-parallel-computing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.devstromo.parallelization.merge_sort.*" />
+          <option name="PATTERN" value="com.devstromo.fork_join_framework.simple1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.devstromo.parallelization.merge_sort" />
-      <option name="MAIN_CLASS_NAME" value="com.devstromo.parallelization.merge_sort.MergeSortUnitTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -156,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.devstromo.fork_join_framework.simple1.App" />
         <item itemvalue="JUnit.SumUnitTest" />
         <item itemvalue="JUnit.SumUnitTest.testSumCompare" />
         <item itemvalue="JUnit.SumUnitTest.testParallelSum" />
         <item itemvalue="Application.App" />
-        <item itemvalue="JUnit.MergeSortUnitTest" />
       </list>
     </recent_temporary>
   </component>
@@ -221,14 +217,8 @@
       <workItem from="1686871318327" duration="1275000" />
       <workItem from="1686874951351" duration="444000" />
       <workItem from="1686972805322" duration="1879000" />
-      <workItem from="1687043273946" duration="3263000" />
-    </task>
-    <task id="LOCAL-00029" summary="Kosajaru Algorithm | Strongly Connected Component">
-      <created>1677891777074</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1677891777074</updated>
+      <workItem from="1687043273946" duration="3297000" />
+      <workItem from="1687213517900" duration="706000" />
     </task>
     <task id="LOCAL-00030" summary="Tarjan Algorithm | Strongly Connected Component">
       <created>1678236048434</created>
@@ -566,7 +556,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686974553221</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="Multi-thread Processing | Parallelization | Sum Problem">
+      <created>1687046603985</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1687046603985</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -587,7 +584,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Multi-thread Processing | Producer and Consumer" />
     <MESSAGE value="Multi-thread Processing | Locks" />
     <MESSAGE value="Multi-thread Processing | Volatile" />
     <MESSAGE value="Multi-thread Processing | Deadlock" />
@@ -612,6 +608,7 @@
     <MESSAGE value="Multi-thread Processing | Student library simulation" />
     <MESSAGE value="Multi-thread Processing | Parallelization | Merge Sort Sequential" />
     <MESSAGE value="Multi-thread Processing | Parallelization | Parallel Merge Sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="Multi-thread Processing | Parallelization | Parallel Merge Sort" />
+    <MESSAGE value="Multi-thread Processing | Parallelization | Sum Problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Multi-thread Processing | Parallelization | Sum Problem" />
   </component>
 </project>
