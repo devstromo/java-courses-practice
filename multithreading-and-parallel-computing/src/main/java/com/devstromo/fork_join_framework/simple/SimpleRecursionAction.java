@@ -1,4 +1,4 @@
-package com.devstromo.fork_join_framework.simple1;
+package com.devstromo.fork_join_framework.simple;
 
 import java.util.concurrent.RecursiveAction;
 
