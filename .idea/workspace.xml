@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0982d1fa-5f3e-4134-ba5c-502a32bf0606" name="Changes" comment="Multi-thread Processing | Concurrent Collections | ArrayBlockingQueue">
       <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/fork_join_framework/simpleTask/FibonacciTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/fork_join_framework/simpleTask/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/fork_join_framework/simpleTask/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,13 +75,13 @@
       <recent name="com.devstromo.bfs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.devstromo.fork_join_framework.simple.App">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.devstromo.parallelization.merge_sort.App" />
+  <component name="RunManager" selected="Application.com.devstromo.fork_join_framework.simpleTask.App">
+    <configuration name="com.devstromo.fork_join_framework.simpleTask.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.devstromo.fork_join_framework.simpleTask.App" />
       <module name="multithreading-and-parallel-computing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.devstromo.parallelization.merge_sort.*" />
+          <option name="PATTERN" value="com.devstromo.fork_join_framework.simpleTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.devstromo.fork_join_framework.simpleTask.App" />
         <item itemvalue="Application.com.devstromo.fork_join_framework.simple.App" />
         <item itemvalue="JUnit.SumUnitTest" />
         <item itemvalue="JUnit.SumUnitTest.testSumCompare" />
         <item itemvalue="JUnit.SumUnitTest.testParallelSum" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -216,20 +218,7 @@
       <workItem from="1686972805322" duration="1879000" />
       <workItem from="1687043273946" duration="3297000" />
       <workItem from="1687213517900" duration="1017000" />
-    </task>
-    <task id="LOCAL-00031" summary="Ford Fulkerson Algorithm | Maximum Flow">
-      <created>1680045619917</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1680045619917</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Ford Fulkerson Algorithm | Maximum Flow">
-      <created>1680045975964</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1680045975964</updated>
+      <workItem from="1687389081070" duration="1059000" />
     </task>
     <task id="LOCAL-00033" summary="Ford Fulkerson Algorithm | Maximum Flow">
       <created>1680047376294</created>
@@ -560,7 +549,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687214523585</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="Multi-thread Processing | Fork-join | RecursionAction">
+      <created>1687389142849</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1687389142849</updated>
+    </task>
+    <task id="LOCAL-00081" summary="Multi-thread Processing | Fork Join | RecursiveTask">
+      <created>1687389860792</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1687389860792</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -581,8 +584,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Multi-thread Processing | Volatile" />
-    <MESSAGE value="Multi-thread Processing | Deadlock" />
     <MESSAGE value="Multi-thread Processing | Livelock" />
     <MESSAGE value="Multi-thread Processing | AtomicInteger" />
     <MESSAGE value="Multi-thread Processing | Semaphore" />
@@ -606,6 +607,8 @@
     <MESSAGE value="Multi-thread Processing | Parallelization | Parallel Merge Sort" />
     <MESSAGE value="Multi-thread Processing | Parallelization | Sum Problem" />
     <MESSAGE value="Multi-thread Processing | Fork Join Framework | RecursiveAction" />
-    <option name="LAST_COMMIT_MESSAGE" value="Multi-thread Processing | Fork Join Framework | RecursiveAction" />
+    <MESSAGE value="Multi-thread Processing | Fork-join | RecursionAction" />
+    <MESSAGE value="Multi-thread Processing | Fork Join | RecursiveTask" />
+    <option name="LAST_COMMIT_MESSAGE" value="Multi-thread Processing | Fork Join | RecursiveTask" />
   </component>
 </project>
