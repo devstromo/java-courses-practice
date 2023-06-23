@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="0982d1fa-5f3e-4134-ba5c-502a32bf0606" name="Changes" comment="Multi-thread Processing | Concurrent Collections | ArrayBlockingQueue">
       <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/fork_join_framework/maximumFinding/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/fork_join_framework/maximumFinding/ParallelMaxTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/fork_join_framework/maximumFinding/SequentialMaxFinding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +77,20 @@
       <recent name="com.devstromo.bfs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.devstromo.fork_join_framework.simpleTask.App">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.devstromo.fork_join_framework.maximumFinding.App" />
+      <module name="multithreading-and-parallel-computing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.devstromo.fork_join_framework.maximumFinding.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="com.devstromo.fork_join_framework.simpleTask.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.devstromo.fork_join_framework.simpleTask.App" />
       <module name="multithreading-and-parallel-computing" />
@@ -115,22 +132,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumUnitTest.testParallelSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="multithreading-and-parallel-computing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.devstromo.parallelization.sum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.devstromo.parallelization.sum" />
-      <option name="MAIN_CLASS_NAME" value="com.devstromo.parallelization.sum.SumUnitTest" />
-      <option name="METHOD_NAME" value="testParallelSum" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SumUnitTest.testSumCompare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="multithreading-and-parallel-computing" />
       <extension name="coverage">
@@ -149,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.com.devstromo.fork_join_framework.simpleTask.App" />
         <item itemvalue="Application.com.devstromo.fork_join_framework.simple.App" />
         <item itemvalue="JUnit.SumUnitTest" />
         <item itemvalue="JUnit.SumUnitTest.testSumCompare" />
-        <item itemvalue="JUnit.SumUnitTest.testParallelSum" />
       </list>
     </recent_temporary>
   </component>
@@ -217,13 +218,7 @@
       <workItem from="1687043273946" duration="3297000" />
       <workItem from="1687213517900" duration="1017000" />
       <workItem from="1687389081070" duration="1278000" />
-    </task>
-    <task id="LOCAL-00034" summary="Travelling Salesman Problem | Hamiltonian Cycles">
-      <created>1680820706641</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1680820706641</updated>
+      <workItem from="1687563354273" duration="1203000" />
     </task>
     <task id="LOCAL-00035" summary="Chinese Postman Problem | Eulerian Cycles">
       <created>1681171280600</created>
@@ -561,7 +556,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687390303372</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="Multi-thread Processing | Fork Join | Fibonacci RecursiveTask | Thread Optimization">
+      <created>1687563622286</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1687563622286</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -582,7 +584,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Multi-thread Processing | AtomicInteger" />
     <MESSAGE value="Multi-thread Processing | Semaphore" />
     <MESSAGE value="Multi-thread Processing | Executors" />
     <MESSAGE value="Multi-thread Processing | Executors | ScheduleExecutor" />
@@ -605,8 +606,9 @@
     <MESSAGE value="Multi-thread Processing | Fork Join Framework | RecursiveAction" />
     <MESSAGE value="Multi-thread Processing | Fork-join | RecursionAction" />
     <MESSAGE value="Multi-thread Processing | Fork Join | RecursiveTask" />
-    <MESSAGE value="Multi-thread Processing | Concurrent Collections | ArrayBlockingQueue" />
     <MESSAGE value="Multi-thread Processing | Fork Join | Fibonacci RecursiveTask" />
-    <option name="LAST_COMMIT_MESSAGE" value="Multi-thread Processing | Fork Join | Fibonacci RecursiveTask" />
+    <MESSAGE value="Multi-thread Processing | Concurrent Collections | ArrayBlockingQueue" />
+    <MESSAGE value="Multi-thread Processing | Fork Join | Fibonacci RecursiveTask | Thread Optimization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Multi-thread Processing | Fork Join | Fibonacci RecursiveTask | Thread Optimization" />
   </component>
 </project>
