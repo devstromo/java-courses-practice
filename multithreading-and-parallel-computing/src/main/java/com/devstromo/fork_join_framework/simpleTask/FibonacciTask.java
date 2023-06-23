@@ -16,10 +16,13 @@ public class FibonacciTask extends RecursiveTask<Integer> {
         } else {
             var n1 = new FibonacciTask(num - 1);
             var n2 = new FibonacciTask(num - 2);
-            n1.fork();
+            // avoid split several thread
+            // n1.fork();
             n2.fork();
-
-            return n1.join() + n2.join();
+            // the actual thread executes fib1
+            // and we create another thread(insert it into the pool)
+            //associated with fib2
+            return n1.compute() + n2.join();
         }
     }
 }
