@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0982d1fa-5f3e-4134-ba5c-502a32bf0606" name="Changes" comment="Multi-thread Processing | Concurrent Collections | ArrayBlockingQueue">
       <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/fork_join_framework/mergeSort/MergeSortTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/fork_join_framework/mergeSort/SequentialMergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/fork_join_framework/mergeSort/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/fork_join_framework/mergeSort/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,14 +214,7 @@
       <workItem from="1687213517900" duration="1017000" />
       <workItem from="1687389081070" duration="1278000" />
       <workItem from="1687563354273" duration="1324000" />
-      <workItem from="1687730027225" duration="1000000" />
-    </task>
-    <task id="LOCAL-00036" summary="Sequential Processing">
-      <created>1682556456479</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1682556456479</updated>
+      <workItem from="1687730027225" duration="1383000" />
     </task>
     <task id="LOCAL-00037" summary="Multi-thread Processing">
       <created>1682557387689</created>
@@ -561,7 +552,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687564610231</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="Multi-thread Processing | Fork Join | Merge sort revisited">
+      <created>1687731230488</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1687731230488</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -582,7 +580,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Multi-thread Processing | Executors" />
     <MESSAGE value="Multi-thread Processing | Executors | ScheduleExecutor" />
     <MESSAGE value="Multi-thread Processing | Executors | Stop executors" />
     <MESSAGE value="Multi-thread Processing | Executors | Callable" />
@@ -605,8 +602,9 @@
     <MESSAGE value="Multi-thread Processing | Fork Join | RecursiveTask" />
     <MESSAGE value="Multi-thread Processing | Fork Join | Fibonacci RecursiveTask" />
     <MESSAGE value="Multi-thread Processing | Fork Join | Fibonacci RecursiveTask | Thread Optimization" />
-    <MESSAGE value="Multi-thread Processing | Concurrent Collections | ArrayBlockingQueue" />
     <MESSAGE value="Multi-thread Processing | Fork Join | Maximum finding" />
-    <option name="LAST_COMMIT_MESSAGE" value="Multi-thread Processing | Fork Join | Maximum finding" />
+    <MESSAGE value="Multi-thread Processing | Concurrent Collections | ArrayBlockingQueue" />
+    <MESSAGE value="Multi-thread Processing | Fork Join | Merge sort revisited" />
+    <option name="LAST_COMMIT_MESSAGE" value="Multi-thread Processing | Fork Join | Merge sort revisited" />
   </component>
 </project>
