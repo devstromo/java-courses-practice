@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0982d1fa-5f3e-4134-ba5c-502a32bf0606" name="Changes" comment="Multi-thread Processing | Concurrent Collections | ArrayBlockingQueue">
       <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/fork_join_framework/mergeSort/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/fork_join_framework/mergeSort/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multithreading-and-parallel-computing/src/main/java/com/devstromo/streamApi/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +76,7 @@
       <recent name="com.devstromo.bfs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.devstromo.fork_join_framework.mergeSort.App">
+  <component name="RunManager" selected="Application.com.devstromo.streamApi.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.devstromo.fork_join_framework.maximumFinding.App" />
       <module name="multithreading-and-parallel-computing" />
@@ -128,28 +129,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="com.devstromo.streamApi.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.devstromo.streamApi.App" />
       <module name="multithreading-and-parallel-computing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.devstromo.parallelization.sum.*" />
+          <option name="PATTERN" value="com.devstromo.streamApi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.devstromo.parallelization.sum" />
-      <option name="MAIN_CLASS_NAME" value="com.devstromo.parallelization.sum.SumUnitTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.devstromo.streamApi.App" />
         <item itemvalue="Application.com.devstromo.fork_join_framework.mergeSort.App" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.com.devstromo.fork_join_framework.simpleTask.App" />
         <item itemvalue="Application.com.devstromo.fork_join_framework.simple.App" />
-        <item itemvalue="JUnit.SumUnitTest" />
       </list>
     </recent_temporary>
   </component>
@@ -214,14 +213,8 @@
       <workItem from="1687213517900" duration="1017000" />
       <workItem from="1687389081070" duration="1278000" />
       <workItem from="1687563354273" duration="1324000" />
-      <workItem from="1687730027225" duration="1383000" />
-    </task>
-    <task id="LOCAL-00037" summary="Multi-thread Processing">
-      <created>1682557387689</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1682557387689</updated>
+      <workItem from="1687730027225" duration="1448000" />
+      <workItem from="1687909482284" duration="299000" />
     </task>
     <task id="LOCAL-00038" summary="Multi-thread Processing | Starting Threads">
       <created>1682639330783</created>
@@ -559,7 +552,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687731230488</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="Multi-thread Processing | Fork Join | Merge sort revisited">
+      <created>1687731460747</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1687731460748</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
